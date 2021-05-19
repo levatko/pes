@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-sm card">        
+            <div class="mb-4">
+                <h2>Form Template</h2>
+            </div>
+    
+            <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Name">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Contact Phone</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Phone">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleDataList" class="form-label">Email</label>
+                <input class="form-control myinput" list="datalistOptions" id="exampleDataList" placeholder="Email">
+                    <datalist id="datalistOptions">
+                        <option value="na@ncr.com">                        
+                    </datalist>
+              </div> 
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Customer Ticket Number</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Number">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">RPOS Version</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Control Panel -> Add or Remove Programs">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Epsilon Version</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Control Panel -> Add or Remove Programs"">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">CMC Id</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Id">
+              </div>
+              
+              <div class="mb-4">
+                <label for="exampleFormControlTextarea1" class="form-label">Issue Description</label>
+                <textarea class="form-control myinput" id="exampleFormControlTextarea1" rows="4" placeholder="Description"></textarea>
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Date and Time Issue Occurs</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Date and Time">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">When Did it Stop Working</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Date and Time">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Changes Made Arround That Time</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Changes">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Error Messages</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Errors">
+              </div>
+              
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">How Many Pumps/POS Terminals Affected</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Numbers">
+              </div>
+              
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Is This an Outgoing Issue</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Checkbox">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Steps to Reproduce the Issue</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Steps">
+              </div>
+    
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Screenshots Attached</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Checkbox">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Logs Attached</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Logs">
+              </div>
+    
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Model and Serial Number (If Hardware Related)</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Model and S/N">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label">Steps for Next Analyst</label>
+                <input type="email" class="form-control myinput" id="exampleFormControlInput1" placeholder="Steps">
+              </div>
+
+              <div class="mb-4">
+                <label for="exampleFormControlTextarea1">Troubleshooting Steps Taken</label>
+                <textarea class="form-control myinput" id="exampleFormControlTextarea1" rows="4" placeholder="Description"></textarea>
+              </div>          
+    
+                <div class="mb-4 flex-row">
+                    <button type="submit" class="btn btn-primary" onclick="ShowText()">Copy to Clipboard</button>
+                    <button type="submit" class="btn btn-secondary">Save as Text File</button>
+                    <button type="submit" class="btn btn-danger" onclick="Reset()">Clear</button>
+                </div>
+         </div> 
+    </div>  
+        
+</body>
+</html>
+
+<style>
+
+    .container-sm{
+        padding: 1.7em 1.7rem 1em 1.7rem;
+        width: 100%;
+        background: rgb(247, 247, 247);
+    }
+
+    .container{
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 50%;        
+    }
+
+</style>
+
+<script>
+
+function ShowText(){
+    var finalText = "";
+    // find each input field inside the 'myForm' form:
+    var inputs = document.getElementsByClassName('myinput');
+    var textArea = document.getElementsByTagName('textarea');
+    
+    // loop through the input elements:
+    for(var i=0; i<inputs.length; i++){
+        // append 'name' and 'value' to the 'box':
+        //if(i == 0){
+        //    finalText = inputs[i].value + '\n' + textArea[0].value + '\n';
+        //}
+
+        finalText += inputs[i].value+'\n';        
+    }
+    console.log(finalText);
+    copyToClipboard(finalText);
+    
+}
+
+function copyToClipboard(text) {
+    var dummy = document.createElement("textarea");
+    // to avoid breaking orgain page when copying more words
+    // cant copy when adding below this code
+    // dummy.style.display = 'none'
+    document.body.appendChild(dummy);
+    //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+}
+
+function Reset(){
+    location.reload();
+}
+
+  </script>
